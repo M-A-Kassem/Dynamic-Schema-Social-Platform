@@ -9,6 +9,7 @@ namespace Dynamic_Schema_Social_Platform.IRepo
 
         Task<IEnumerable<TalentType>> GetAllTalentTypesAsync();
 
+
         Task<TalentType?> GetTalentTypeByIdAsync(int talentTypeId);
 
         Task<bool> DeleteTalentTypeAsync(int talentTypeId);

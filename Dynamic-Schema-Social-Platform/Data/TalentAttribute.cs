@@ -18,7 +18,7 @@ namespace Dynamic_Schema_Social_Platform.Enteties
         [MaxLength(20)]
         public string AttributeType { get; set; } = "text";
 
-        // Navigation Properties
+        // Nav Prop
         public TalentType TalentType { get; set; } = null!;
 
         public ICollection<UserTalentData> UserTalentData { get; set; }  = new List<UserTalentData>();

@@ -10,9 +10,7 @@ namespace Dynamic_Schema_Social_Platform.IRepo
         Task<TalentType> CreateTalentTypeWithAttributesAsync(
             CreateTalentTypeDto dto);
 
-
         Task<User> CreateUserAsync(CreateUserDto dto);
-
 
         Task<IEnumerable<User>> GetAllUsersAsync();
 

@@ -13,5 +13,6 @@ namespace Dynamic_Schema_Social_Platform.IRepo
 
         Task<IEnumerable<UserTalentResponseDto>> GetMyTalentsAsync(
             int userId);
+
     }
 }

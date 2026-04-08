@@ -6,7 +6,6 @@ namespace Dynamic_Schema_Social_Platform.IRepo
     {
         Task<TalentAttribute> AddAttributeAsync(int talentTypeId, string attributeName, string attributeType);
 
-
         Task<IEnumerable<TalentAttribute>> GetAttributesByTalentTypeAsync(int talentTypeId);
 
         Task<bool> DeleteAttributeAsync(int attributeId);
